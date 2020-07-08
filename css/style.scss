@@ -1,0 +1,65 @@
+body{
+  margin: 0;
+}
+header{
+  text-align: center;
+  background: rgb(167, 255, 67);
+  h1{
+    margin:0;
+    padding: 30px;
+  }
+}
+
+#can{
+  margin-top:50px;
+  margin-left:150px;
+}
+.game{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background: url('/sa-kuru.jpg') ;
+  padding-bottom: 50px;
+  .text{
+     margin-top: 50px;
+     
+ 
+    button{
+      padding: 10px;
+      border-style: none;
+      background: rgb(192, 252, 125);
+      box-shadow: 0 4px rgb(99, 151, 40);
+      margin-bottom: 30px;
+      &:active{
+        margin-top: 4px;
+        box-shadow: 0 0;
+       
+      }
+    }
+  }
+}
+.btns{
+  display: flex;
+  flex-direction: column;
+}
+
+footer{
+  background: rgb(167, 255, 67);
+  text-align: center;
+  p{
+    padding: 30px;
+    margin: 0;
+  }
+}
+.explain{
+  font-weight: bold;
+  font-size: 15px;
+  margin: 0;
+  color: #fff;
+  border: 1px solid #fff;
+  background: rgba(167,255,67,0.5);
+  p{
+    margin: 0;
+    padding: 10px;
+  }
+}

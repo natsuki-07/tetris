@@ -38,7 +38,7 @@
   
   can.width = screen_w;
   can.height = screen_h;
-  can.style.border= "4px solid #eee";
+  can.style.border= "4px solid #ddd";
 
   //本体
   const tetoro_colors = [
